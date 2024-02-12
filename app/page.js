@@ -8,7 +8,8 @@ const App = () => {
 
   
   useEffect(() => {
-    if (!localStorage.getItem('CNY')) {
+    const cnyDocument = localStorage.getItem('CNY')
+    if (!cnyDocument) {
       initialiseApp();
     } else {
       console.log('App already initialised');
