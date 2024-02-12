@@ -21,7 +21,7 @@ const Home = () => {
         <h2 className="text-xl font-semibold text-center text-gray-800 mb-4">Pro Tips</h2>
         <p className="text-gray-600">
           1. Please open your angpaos discretely when checking the value. <br/>
-          2. Don't lose all your angpao money on gambling. <br/>
+          2. Do not lose all your angpao money on gambling. <br/>
           3. Invest in S&P 500<br/>
 
         </p>

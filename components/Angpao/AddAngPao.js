@@ -49,7 +49,7 @@ const formSchema = z.object({
     use: z.string({
       required_error: "Use is required",
     }),
-    image: z.string().optional(),
+    // image: z.string().optional(),
   })
    
  
@@ -268,7 +268,7 @@ export function AddAngPao() {
             </FormItem>
           )}
         />
-        <FormField
+        {/* <FormField
           control={form.control}
           name="image"
           render={({field}) => (
@@ -287,7 +287,7 @@ export function AddAngPao() {
               <FormMessage />
             </FormItem>
           )}
-        />
+        /> */}
 
 
         <Button type="submit">Submit</Button>

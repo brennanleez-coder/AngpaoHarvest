@@ -9,7 +9,8 @@ const Navbar = ({setPage}) => {
 
 
   const calculateAngPao = () => {
-    return localStorage.getItem('CNY') ? JSON.parse(localStorage.getItem('CNY')).angpao.length : 0 ;
+    const angpaoTotal = localStorage.getItem('CNY') ? JSON.parse(localStorage.getItem('CNY')).angpao.length : 0 ;
+    return angpaoTotal
   }
 
   useEffect(() => {
